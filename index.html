@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./download2.png.png" alt="" style="height: 50px; background-color: aliceblue;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Slider -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" class="img1">
+          <img
+            src="https://img.freepik.com/free-photo/garlic-heads-wooden-table_661915-374.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=ais"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" class="img1">
+          <img
+            src="https://img.freepik.com/free-photo/closeup-coriander-seed_53876-32009.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=sph"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" class="img1">
+          <img
+            src="https://img.freepik.com/free-photo/red-chilli-paste-black_1150-25554.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=ais"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- cards -->
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col col-lg-4 col-md-6 col-12 mt-3">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/premium-photo/levitation-red-chili-pepper-whole-slices-with-paprika-powder-against-black-background_244366-725.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=ais"
+              class="card-img-top"
+              alt="..."
+              style="height: 320px;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chilly</h5>
+              <p class="card-text">It's available at a very good price</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-12  mt-3">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/fresh-raw-garlic-ready-cook_1150-42636.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=ais"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Garlic</h5>
+              <p class="card-text">It's available at a very good price</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-12  mt-3">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/closeup-coriander-seed_53876-32009.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=sph"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coriander</h5>
+              <p class="card-text">It's available at a very good price</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slider in card -->
+
+    <div id="carouselExample1" class="carousel slide ">
+      <div class="carousel-inner">
+        <div class="carousel-item active mb-2 mt-3">
+          <div class="card" style="width: 18rem; margin: auto;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img src="https://img.freepik.com/free-photo/confident-attractive-caucasian-guy-beige-pullon-smiling-broadly-while-standing-against-gray_176420-44508.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=sph" class="card-img-top" alt="..."
+              style="width: 220px; height: 160px; border-radius: 50%; border: 2px soloid rgb(44, 40, 40);">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item mb-2 mt-3">
+          <div class="card" style="width: 18rem; margin: auto;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img src="https://img.freepik.com/free-vector/facebook-like-icon_1017-8081.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=ais" class="card-img-top" alt="..."
+              style="width: 220px; height: 160px; border-radius: 50%; border: 2px soloid rgb(44, 40, 40);">
+            </div>
+          </div>
+ 
+          </div>
+        </div>
+        <div class="carousel-item mb-2 mt-3 ">
+          <div class="card" style="width: 18rem; margin: auto;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img src="https://img.freepik.com/free-vector/public-approval-concept-with-male-character_52683-30995.jpg?size=626&ext=jpg&uid=R105981599&ga=GA1.2.302130062.1692463670&semt=ais" class="card-img-top" alt="..."
+              style="width: 220px; height: 160px; border-radius: 50%; border: 2px soloid rgb(44, 40, 40);">
+            </div>
+          </div>
+ <!-- </div> -->
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample1"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample1"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+   <!-- footer -->
+   <div>
+      <footer>
+        &copy; Muhammad Hasnain WMA 105300
+      </footer>
+    </div>
+  </body>
+</html>
