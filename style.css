@@ -1,0 +1,28 @@
+body{
+    background-color: #030303;
+}
+.navbar-expand-md{
+       background-color:  #8a1f1fe8 !important; 
+}
+ul,li,a{
+    color: aliceblue!important;
+   
+}
+.navbar-expand-lg,ul,li,a:hover{
+    color:#b95959;
+}
+/* .card,img{
+    width: 18rem;
+} */
+ul,li,a,.dropdown-menu,.dropdown-item{
+    color: #000000;
+}
+.img1,img{
+    height: 50vh;
+}
+footer{
+    background-color: #681010e8;
+    color:#f1f1f1;
+    text-align: center;
+    height: 25px;
+}
